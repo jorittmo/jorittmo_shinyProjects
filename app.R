@@ -22,9 +22,9 @@ library(paletteer)
 #
 ###############################################
 
-cov_data_full <- read_csv("https://covid.ourworldindata.org/data/owid-covid-data.csv")
-# load("data/cov.RData")
-# cov_data_full <- x
+#cov_data_full <- read_csv("https://covid.ourworldindata.org/data/owid-covid-data.csv")
+load("data/cov.RData")
+cov_data_full <- x
 load("data/var_desc.Rdata")
 
 countries <- read.csv("data/countries.csv") %>% 
